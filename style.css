@@ -1,0 +1,43 @@
+/* ------------font-------------- */
+@font-face {
+    font-family:outfit-black;
+    src: url(./Fonts/Outfit-Black.ttf);
+}
+@font-face {
+    font-family: outfit-thin;
+    src: url(./Fonts/Outfit-thin.ttf);
+}
+/* ------body-------- */
+body{
+    background-color: #d5e1ef;
+    display: flex;
+    justify-content: center;
+}
+/* --------container------------- */
+.container{
+    width: 300px;
+    height: 465px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    align-items: center;
+    margin-top:150px;
+}
+
+.qrcode{
+    width: 270px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+/* -----------text------ */
+h1{
+    font-size: 20px;
+    text-align: center;
+    font-family: outfit-black; 
+}
+p{
+    font-size: 14px;
+    font-family: outfit-thin;
+    text-align: center;
+    color: hsl(202, 4%, 51%);
+}
